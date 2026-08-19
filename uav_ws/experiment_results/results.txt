@@ -1,0 +1,173 @@
+Results of running "bash ~/suas_ws/run_experiments.sh"
+
+
+========================================
+SUAS Sensor Pipeline Experiments
+========================================
+
+Starting Experiment 1: Light Workload
+Running for 20 seconds...
+[monitoring_node-6] [INFO] [1772643435.067909036] [monitoring_node]: ╔══════════════════════════════════════════════════╗
+[monitoring_node-6] [INFO] [1772643435.068086182] [monitoring_node]: ║           SYSTEM MONITORING REPORT               ║
+[monitoring_node-6] [INFO] [1772643435.068242482] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643435.068397127] [monitoring_node]: ║ PROCESSING STATISTICS:                           ║
+[monitoring_node-6] [INFO] [1772643435.068556911] [monitoring_node]: ║   Output Rate:   131.50 msgs/sec                 ║
+[monitoring_node-6] [INFO] [1772643435.068712249] [monitoring_node]: ║   Total Processed:      263 msgs                 ║
+[monitoring_node-6] [INFO] [1772643435.068907015] [monitoring_node]: ║   Avg Latency:     0.56 ms                       ║
+[monitoring_node-6] [INFO] [1772643435.069070274] [monitoring_node]: ║   Min/Max Latency: 0.2/12.1 ms                    ║
+[monitoring_node-6] [INFO] [1772643435.069222327] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643435.069421659] [monitoring_node]: ║ CPU USAGE:                                       ║
+[monitoring_node-6] [INFO] [1772643435.069588965] [monitoring_node]: ║   System Total:   15.5%                          ║
+[monitoring_node-6] [INFO] [1772643435.069744476] [monitoring_node]: ║   Process CPU:     3.5%                          ║
+[monitoring_node-6] [INFO] [1772643435.069904699] [monitoring_node]: ║   Per-Core:   24%    4%    9%    8% ...          ║
+[monitoring_node-6] [INFO] [1772643435.070058875] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643435.070213493] [monitoring_node]: ║ MEMORY USAGE:                                    ║
+[monitoring_node-6] [INFO] [1772643435.070416837] [monitoring_node]: ║   System:  20.8% (1.1/5.8 GB)                    ║
+[monitoring_node-6] [INFO] [1772643435.070587452] [monitoring_node]: ║   Process RSS:   55.8 MB                         ║
+[monitoring_node-6] [INFO] [1772643435.070758848] [monitoring_node]: ╚══════════════════════════════════════════════════╝
+[autopilot_processor-5] [INFO] [1772643435.091703820] [autopilot_processor]: ============================================================
+[autopilot_processor-5] [INFO] [1772643435.092000458] [autopilot_processor]: PROCESSING REPORT (level: light)
+[autopilot_processor-5] [INFO] [1772643435.092208465] [autopilot_processor]: ------------------------------------------------------------
+[autopilot_processor-5] [INFO] [1772643435.092429046] [autopilot_processor]: MESSAGE RECEPTION RATES:
+[autopilot_processor-5] [INFO] [1772643435.092651190] [autopilot_processor]:   /sensors/camera: 28.34 Hz
+[autopilot_processor-5] [INFO] [1772643435.092879648] [autopilot_processor]:   /sensors/gps: 10.00 Hz
+[autopilot_processor-5] [INFO] [1772643435.093062408] [autopilot_processor]:   /sensors/imu: 69.00 Hz
+[autopilot_processor-5] [INFO] [1772643435.093271842] [autopilot_processor]:   /sensors/lidar: 10.00 Hz
+[autopilot_processor-5] [INFO] [1772643435.093515568] [autopilot_processor]:   TOTAL INPUT: 117.34 Hz
+[autopilot_processor-5] [INFO] [1772643435.093697258] [autopilot_processor]:   Total messages processed: 1549
+[autopilot_processor-5] [INFO] [1772643435.094077380] [autopilot_processor]:   Processing time - Avg: 0.10 ms | Min: 0.07 ms | Max: 0.19 ms | Std: 0.02 ms
+[autopilot_processor-5] [INFO] [1772643435.094309773] [autopilot_processor]:   Theoretical max throughput: 9763.9 msgs/sec
+[autopilot_processor-5] [INFO] [1772643435.094477275] [autopilot_processor]: ============================================================
+[monitoring_node-6] [INFO] [1772643437.067675590] [monitoring_node]:
+[monitoring_node-6] [INFO] [1772643437.067918579] [monitoring_node]: ╔══════════════════════════════════════════════════╗
+[monitoring_node-6] [INFO] [1772643437.068086026] [monitoring_node]: ║           SYSTEM MONITORING REPORT               ║
+[monitoring_node-6] [INFO] [1772643437.068244967] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643437.068402199] [monitoring_node]: ║ PROCESSING STATISTICS:                           ║
+[monitoring_node-6] [INFO] [1772643437.068565102] [monitoring_node]: ║   Output Rate:   140.99 msgs/sec                 ║
+[monitoring_node-6] [INFO] [1772643437.068723133] [monitoring_node]: ║   Total Processed:      282 msgs                 ║
+[monitoring_node-6] [INFO] [1772643437.068929651] [monitoring_node]: ║   Avg Latency:     0.46 ms                       ║
+[monitoring_node-6] [INFO] [1772643437.069118971] [monitoring_node]: ║   Min/Max Latency: 0.2/12.1 ms                    ║
+[monitoring_node-6] [INFO] [1772643437.069352217] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643437.069546254] [monitoring_node]: ║ CPU USAGE:                                       ║
+[monitoring_node-6] [INFO] [1772643437.069705026] [monitoring_node]: ║   System Total:   15.1%                          ║
+[monitoring_node-6] [INFO] [1772643437.069860010] [monitoring_node]: ║   Process CPU:     4.5%                          ║
+[monitoring_node-6] [INFO] [1772643437.070022406] [monitoring_node]: ║   Per-Core:   36%   10%   16%    4% ...          ║
+[monitoring_node-6] [INFO] [1772643437.070179572] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643437.070334775] [monitoring_node]: ║ MEMORY USAGE:                                    ║
+[monitoring_node-6] [INFO] [1772643437.070524395] [monitoring_node]: ║   System:  20.8% (1.1/5.8 GB)                    ║
+[monitoring_node-6] [INFO] [1772643437.070714245] [monitoring_node]: ║   Process RSS:   55.8 MB                         ║
+[monitoring_node-6] [INFO] [1772643437.070871868] [monitoring_node]: ╚══════════════════════════════════════════════════╝
+
+========================================
+
+Starting Experiment 2: Medium Workload
+Running for 20 seconds...
+[monitoring_node-6] [INFO] [1772643451.475100809] [monitoring_node]: ║   Avg Latency:     0.94 ms                       ║
+[monitoring_node-6] [INFO] [1772643451.475263308] [monitoring_node]: ║   Min/Max Latency: 0.2/2.2 ms                    ║
+[monitoring_node-6] [INFO] [1772643451.475420973] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643451.475592461] [monitoring_node]: ║ CPU USAGE:                                       ║
+[monitoring_node-6] [INFO] [1772643451.475761614] [monitoring_node]: ║   System Total:   19.3%                          ║
+[monitoring_node-6] [INFO] [1772643451.475949068] [monitoring_node]: ║   Process CPU:     0.0%                          ║
+[monitoring_node-6] [INFO] [1772643451.476128729] [monitoring_node]: ║   Per-Core:    4%   18%    0%    1% ...          ║
+[monitoring_node-6] [INFO] [1772643451.476287915] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643451.476485318] [monitoring_node]: ║ MEMORY USAGE:                                    ║
+[monitoring_node-6] [INFO] [1772643451.476685658] [monitoring_node]: ║   System:  20.9% (1.1/5.8 GB)                    ║
+[monitoring_node-6] [INFO] [1772643451.476859422] [monitoring_node]: ║   Process RSS:   55.9 MB                         ║
+[monitoring_node-6] [INFO] [1772643451.477019156] [monitoring_node]: ╚══════════════════════════════════════════════════╝
+[monitoring_node-6] [INFO] [1772643453.473741475] [monitoring_node]:
+[monitoring_node-6] [INFO] [1772643453.473960116] [monitoring_node]: ╔══════════════════════════════════════════════════╗
+[monitoring_node-6] [INFO] [1772643453.474123122] [monitoring_node]: ║           SYSTEM MONITORING REPORT               ║
+[monitoring_node-6] [INFO] [1772643453.474283827] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643453.474441282] [monitoring_node]: ║ PROCESSING STATISTICS:                           ║
+[monitoring_node-6] [INFO] [1772643453.474603480] [monitoring_node]: ║   Output Rate:     0.50 msgs/sec                 ║
+[monitoring_node-6] [INFO] [1772643453.474761282] [monitoring_node]: ║   Total Processed:        1 msgs                 ║
+[monitoring_node-6] [INFO] [1772643453.474925655] [monitoring_node]: ║   Avg Latency:     1.01 ms                       ║
+[monitoring_node-6] [INFO] [1772643453.475083064] [monitoring_node]: ║   Min/Max Latency: 0.2/2.2 ms                    ║
+[monitoring_node-6] [INFO] [1772643453.475237742] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643453.475420216] [monitoring_node]: ║ CPU USAGE:                                       ║
+[monitoring_node-6] [INFO] [1772643453.475592195] [monitoring_node]: ║   System Total:   19.2%                          ║
+[monitoring_node-6] [INFO] [1772643453.475752582] [monitoring_node]: ║   Process CPU:     0.5%                          ║
+[monitoring_node-6] [INFO] [1772643453.475919580] [monitoring_node]: ║   Per-Core:    4%    2%    2%    0% ...          ║
+[monitoring_node-6] [INFO] [1772643453.476098665] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643453.476254569] [monitoring_node]: ║ MEMORY USAGE:                                    ║
+[monitoring_node-6] [INFO] [1772643453.476417074] [monitoring_node]: ║   System:  20.9% (1.1/5.8 GB)                    ║
+[monitoring_node-6] [INFO] [1772643453.476576856] [monitoring_node]: ║   Process RSS:   55.9 MB                         ║
+[monitoring_node-6] [INFO] [1772643453.476732440] [monitoring_node]: ╚══════════════════════════════════════════════════╝
+[monitoring_node-6] [INFO] [1772643455.479772062] [monitoring_node]:
+[monitoring_node-6] [INFO] [1772643455.480063783] [monitoring_node]: ╔══════════════════════════════════════════════════╗
+[monitoring_node-6] [INFO] [1772643455.480244320] [monitoring_node]: ║           SYSTEM MONITORING REPORT               ║
+[monitoring_node-6] [INFO] [1772643455.480409309] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643455.480571680] [monitoring_node]: ║ PROCESSING STATISTICS:                           ║
+[monitoring_node-6] [INFO] [1772643455.480736405] [monitoring_node]: ║   Output Rate:     0.00 msgs/sec                 ║
+[monitoring_node-6] [INFO] [1772643455.480895614] [monitoring_node]: ║   Total Processed:        0 msgs                 ║
+[monitoring_node-6] [INFO] [1772643455.481058599] [monitoring_node]: ║   Avg Latency:     1.01 ms                       ║
+[monitoring_node-6] [INFO] [1772643455.481215714] [monitoring_node]: ║   Min/Max Latency: 0.2/2.2 ms                    ║
+[monitoring_node-6] [INFO] [1772643455.481415561] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643455.481589522] [monitoring_node]: ║ CPU USAGE:                                       ║
+[monitoring_node-6] [INFO] [1772643455.481752040] [monitoring_node]: ║   System Total:   19.1%                          ║
+[monitoring_node-6] [INFO] [1772643455.481910082] [monitoring_node]: ║   Process CPU:     0.0%                          ║
+[monitoring_node-6] [INFO] [1772643455.482110280] [monitoring_node]: ║   Per-Core:    2%    8%    2%    1% ...          ║
+[monitoring_node-6] [INFO] [1772643455.482277902] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643455.482436900] [monitoring_node]: ║ MEMORY USAGE:                                    ║
+[monitoring_node-6] [INFO] [1772643455.482600642] [monitoring_node]: ║   System:  21.0% (1.1/5.8 GB)                    ║
+[monitoring_node-6] [INFO] [1772643455.482760731] [monitoring_node]: ║   Process RSS:   55.9 MB                         ║
+[monitoring_node-6] [INFO] [1772643455.484679922] [monitoring_node]: ╚══════════════════════════════════════════════════╝
+
+========================================
+
+Starting Experiment 3: Heavy Workload
+Running for 20 seconds...
+[monitoring_node-6] [INFO] [1772643475.162355541] [monitoring_node]: ╔══════════════════════════════════════════════════╗
+[monitoring_node-6] [INFO] [1772643475.162519939] [monitoring_node]: ║           SYSTEM MONITORING REPORT               ║
+[monitoring_node-6] [INFO] [1772643475.162676893] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643475.162831105] [monitoring_node]: ║ PROCESSING STATISTICS:                           ║
+[monitoring_node-6] [INFO] [1772643475.162994500] [monitoring_node]: ║   Output Rate:     1.50 msgs/sec                 ║
+[monitoring_node-6] [INFO] [1772643475.163167378] [monitoring_node]: ║   Total Processed:        3 msgs                 ║
+[monitoring_node-6] [INFO] [1772643475.163348736] [monitoring_node]: ║   Avg Latency:     0.57 ms                       ║
+[monitoring_node-6] [INFO] [1772643475.163507747] [monitoring_node]: ║   Min/Max Latency: 0.3/1.2 ms                    ║
+[monitoring_node-6] [INFO] [1772643475.163662719] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643475.163853053] [monitoring_node]: ║ CPU USAGE:                                       ║
+[monitoring_node-6] [INFO] [1772643475.164013976] [monitoring_node]: ║   System Total:   20.1%                          ║
+[monitoring_node-6] [INFO] [1772643475.164171817] [monitoring_node]: ║   Process CPU:     0.0%                          ║
+[monitoring_node-6] [INFO] [1772643475.164336469] [monitoring_node]: ║   Per-Core:   10%    3%    7%    2% ...          ║
+[monitoring_node-6] [INFO] [1772643475.164524902] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643475.164682946] [monitoring_node]: ║ MEMORY USAGE:                                    ║
+[monitoring_node-6] [INFO] [1772643475.164842408] [monitoring_node]: ║   System:  21.0% (1.1/5.8 GB)                    ║
+[monitoring_node-6] [INFO] [1772643475.164999657] [monitoring_node]: ║   Process RSS:   55.7 MB                         ║
+[monitoring_node-6] [INFO] [1772643475.165174977] [monitoring_node]: ╚══════════════════════════════════════════════════╝
+[autopilot_processor-5] [INFO] [1772643476.826409478] [autopilot_processor]: ============================================================
+[autopilot_processor-5] [INFO] [1772643476.826647338] [autopilot_processor]: PROCESSING REPORT (level: heavy)
+[autopilot_processor-5] [INFO] [1772643476.826813285] [autopilot_processor]: ------------------------------------------------------------
+[autopilot_processor-5] [INFO] [1772643476.826993732] [autopilot_processor]: MESSAGE RECEPTION RATES:
+[autopilot_processor-5] [INFO] [1772643476.844824969] [autopilot_processor]:   /sensors/camera: 0.24 Hz
+[autopilot_processor-5] [INFO] [1772643476.881888750] [autopilot_processor]:   /sensors/gps: 0.12 Hz
+[autopilot_processor-5] [INFO] [1772643476.936372912] [autopilot_processor]:   /sensors/imu: 0.12 Hz
+[autopilot_processor-5] [INFO] [1772643476.936643189] [autopilot_processor]:   /sensors/lidar: 0.12 Hz
+[autopilot_processor-5] [INFO] [1772643476.956743992] [autopilot_processor]:   TOTAL INPUT: 0.59 Hz
+[autopilot_processor-5] [INFO] [1772643477.017444429] [autopilot_processor]:   Total messages processed: 14
+[autopilot_processor-5] [INFO] [1772643477.049148341] [autopilot_processor]:   Processing time - Avg: 5185.45 ms | Min: 573.78 ms | Max: 7293.42 ms | Std: 2238.72 ms
+[monitoring_node-6] [INFO] [1772643477.162126538] [monitoring_node]:
+[monitoring_node-6] [INFO] [1772643477.162394236] [monitoring_node]: ╔══════════════════════════════════════════════════╗
+[monitoring_node-6] [INFO] [1772643477.162565180] [monitoring_node]: ║           SYSTEM MONITORING REPORT               ║
+[monitoring_node-6] [INFO] [1772643477.162730775] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643477.162897403] [monitoring_node]: ║ PROCESSING STATISTICS:                           ║
+[monitoring_node-6] [INFO] [1772643477.163071676] [monitoring_node]: ║   Output Rate:     0.50 msgs/sec                 ║
+[monitoring_node-6] [INFO] [1772643477.163277539] [monitoring_node]: ║   Total Processed:        1 msgs                 ║
+[monitoring_node-6] [INFO] [1772643477.163491428] [monitoring_node]: ║   Avg Latency:     0.58 ms                       ║
+[monitoring_node-6] [INFO] [1772643477.163696136] [monitoring_node]: ║   Min/Max Latency: 0.3/1.2 ms                    ║
+[monitoring_node-6] [INFO] [1772643477.163891314] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643477.164086283] [monitoring_node]: ║ CPU USAGE:                                       ║
+[monitoring_node-6] [INFO] [1772643477.164291338] [monitoring_node]: ║   System Total:   20.3%                          ║
+[monitoring_node-6] [INFO] [1772643477.164497219] [monitoring_node]: ║   Process CPU:     0.5%                          ║
+[monitoring_node-6] [INFO] [1772643477.164671790] [monitoring_node]: ║   Per-Core:   77%   12%   12%    6% ...          ║
+[monitoring_node-6] [INFO] [1772643477.164840619] [monitoring_node]: ╠══════════════════════════════════════════════════╣
+[monitoring_node-6] [INFO] [1772643477.165006039] [monitoring_node]: ║ MEMORY USAGE:                                    ║
+[monitoring_node-6] [INFO] [1772643477.165174487] [monitoring_node]: ║   System:  21.0% (1.1/5.8 GB)                    ║
+[monitoring_node-6] [INFO] [1772643477.165403906] [monitoring_node]: ║   Process RSS:   55.7 MB                         ║
+[monitoring_node-6] [INFO] [1772643477.165638256] [monitoring_node]: ╚══════════════════════════════════════════════════╝
+[autopilot_processor-5] [INFO] [1772643477.172689335] [autopilot_processor]:   Theoretical max throughput: 0.2 msgs/sec
+[autopilot_processor-5] [INFO] [1772643477.225694332] [autopilot_processor]: ============================================================
+
+========================================
+Experiments Complete!
+========================================
